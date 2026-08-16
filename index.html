@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Explore Travel — Premium Tours & Packages</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="https://via.placeholder.com/140x40?text=Explore" alt="Explore Travel Logo" class="logo">
+      </div>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="#destinations">Destinations</a>
+        <a href="#packages">Tour Packages</a>
+        <a href="#hotels">Hotels</a>
+        <a href="#car">Car Rental</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="cta">
+        <a href="#book" class="btn btn-primary">Book Now</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="container hero-content">
+        <h1>Explore the World. Create Memories.</h1>
+        <p class="lead">Discover unforgettable destinations and personalized travel experiences with our trusted travel experts.</p>
+
+        <form id="search-form" class="search-box">
+          <div class="field"><label for="dest">Destination</label><input id="dest" name="destination" placeholder="Where to?" type="text"></div>
+          <div class="field"><label for="date">Travel Date</label><input id="date" name="travelDate" type="date"></div>
+          <div class="field"><label for="travellers">Travellers</label><select id="travellers" name="travellers"><option>1</option><option>2</option><option>3</option><option>4+</option></select></div>
+          <button type="submit" class="btn btn-accent">Search Packages</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="destinations" class="section">
+      <div class="container">
+        <h2 class="section-title">Popular Destinations</h2>
+        <div class="grid grid-4 destinations">
+          <article class="card destination">
+            <img src="https://picsum.photos/seed/dest1/1200/800" alt="Kashmir">
+            <div class="card-body"><h3>Kashmir</h3><p>Snowy valleys and serene lakes.</p><a class="btn btn-outline" href="#">Explore</a></div>
+          </article>
+          <article class="card destination">
+            <img src="https://picsum.photos/seed/dest2/1200/800" alt="Goa">
+            <div class="card-body"><h3>Goa</h3><p>Sandy beaches and vibrant nightlife.</p><a class="btn btn-outline" href="#">Explore</a></div>
+          </article>
+          <article class="card destination">
+            <img src="https://picsum.photos/seed/dest3/1200/800" alt="Kerala">
+            <div class="card-body"><h3>Kerala</h3><p>Backwaters and lush greenery.</p><a class="btn btn-outline" href="#">Explore</a></div>
+          </article>
+          <article class="card destination">
+            <img src="https://picsum.photos/seed/dest4/1200/800" alt="Rajasthan">
+            <div class="card-body"><h3>Rajasthan</h3><p>Historic forts and royal heritage.</p><a class="btn btn-outline" href="#">Explore</a></div>
+          </article>
+        </div>
+        <div class="grid grid-4 destinations">
+          <article class="card destination">
+            <img src="https://picsum.photos/seed/dest5/1200/800" alt="Dubai">
+            <div class="card-body"><h3>Dubai</h3><p>Modern skyline and luxury experiences.</p><a class="btn btn-outline" href="#">Explore</a></div>
+          </article>
+          <article class="card destination">
+            <img src="https://picsum.photos/seed/dest6/1200/800" alt="Thailand">
+            <div class="card-body"><h3>Thailand</h3><p>Tropical islands and rich culture.</p><a class="btn btn-outline" href="#">Explore</a></div>
+          </article>
+          <article class="card destination">
+            <img src="https://picsum.photos/seed/dest7/1200/800" alt="Nepal">
+            <div class="card-body"><h3>Nepal</h3><p>Himalayan treks and spiritual retreats.</p><a class="btn btn-outline" href="#">Explore</a></div>
+          </article>
+          <article class="card destination">
+            <img src="https://picsum.photos/seed/dest8/1200/800" alt="Andaman">
+            <div class="card-body"><h3>Andaman</h3><p>Crystal waters and coral reefs.</p><a class="btn btn-outline" href="#">Explore</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="packages" class="section bg-light">
+      <div class="container">
+        <h2 class="section-title">Best Tour Packages</h2>
+        <div class="grid grid-3 packages">
+          <article class="card package">
+            <img src="https://picsum.photos/seed/pkg1/1200/800" alt="Kashmir Tour">
+            <div class="card-body">
+              <h3>Kashmir Paradise Tour</h3>
+              <p class="muted">5 Nights / 6 Days</p>
+              <p class="price">Starting ₹18,999 <span class="rating">★★★★★</span></p>
+              <ul class="inclusions"><li>Hotel</li><li>Breakfast</li><li>Transfers</li></ul>
+              <div class="actions"><a class="btn btn-outline" href="#">View Details</a><a class="btn btn-primary" href="#">Book Now</a></div>
+            </div>
+          </article>
+          <article class="card package">
+            <img src="https://picsum.photos/seed/pkg2/1200/800" alt="Goa Tour">
+            <div class="card-body">
+              <h3>Goa Beach Escape</h3>
+              <p class="muted">3 Nights / 4 Days</p>
+              <p class="price">Starting ₹9,999 <span class="rating">★★★★☆</span></p>
+              <ul class="inclusions"><li>Beach Resort</li><li>Breakfast</li><li>City Tour</li></ul>
+              <div class="actions"><a class="btn btn-outline" href="#">View Details</a><a class="btn btn-primary" href="#">Book Now</a></div>
+            </div>
+          </article>
+          <article class="card package">
+            <img src="https://picsum.photos/seed/pkg3/1200/800" alt="Kerala Tour">
+            <div class="card-body">
+              <h3>Kerala Backwater Experience</h3>
+              <p class="muted">4 Nights / 5 Days</p>
+              <p class="price">Starting ₹14,999 <span class="rating">★★★★★</span></p>
+              <ul class="inclusions"><li>Houseboat</li><li>Meals</li><li>Guided Tours</li></ul>
+              <div class="actions"><a class="btn btn-outline" href="#">View Details</a><a class="btn btn-primary" href="#">Book Now</a></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="promo">
+      <div class="container promo-inner">
+        <div class="promo-text">
+          <h3>Independence Day Travel Special</h3>
+          <p>Get Up To 30% OFF On Selected Tour Packages</p>
+        </div>
+        <div><a class="btn btn-accent large" href="#">Book Your Dream Trip</a></div>
+      </div>
+    </section>
+
+    <section class="section why-choose">
+      <div class="container">
+        <h2 class="section-title">Why Choose Us</h2>
+        <div class="grid grid-4 features">
+          <div class="feature card"><div class="icon">💰</div><h4>Best Price Guarantee</h4></div>
+          <div class="feature card"><div class="icon">🛡️</div><h4>Trusted & Safe Travel</h4></div>
+          <div class="feature card"><div class="icon">🎧</div><h4>Expert Travel Support</h4></div>
+          <div class="feature card"><div class="icon">✈️</div><h4>Customized Tour Packages</h4></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reviews">
+      <div class="container">
+        <h2 class="section-title">Customer Reviews</h2>
+        <div class="grid grid-3 testimonials">
+          <div class="card testimonial"><img src="https://picsum.photos/seed/p1/64/64" class="avatar" alt="Priya"><h4>Priya</h4><p>★★★★★</p><p>Well planned and friendly guides. Memorable trip!</p></div>
+          <div class="card testimonial"><img src="https://picsum.photos/seed/p2/64/64" class="avatar" alt="Raj"><h4>Raj</h4><p>★★★★☆</p><p>Great value and smooth bookings.</p></div>
+          <div class="card testimonial"><img src="https://picsum.photos/seed/p3/64/64" class="avatar" alt="Sana"><h4>Sana</h4><p>★★★★★</p><p>Luxury experience, highly recommended.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery">
+      <div class="container">
+        <h2 class="section-title">Travel Gallery</h2>
+        <div class="photo-grid">
+          <img src="https://picsum.photos/seed/g3/800/600" alt="gallery">
+          <img src="https://picsum.photos/seed/g4/800/600" alt="gallery">
+          <img src="https://picsum.photos/seed/g5/800/600" alt="gallery">
+          <img src="https://picsum.photos/seed/g6/800/600" alt="gallery">
+          <img src="https://picsum.photos/seed/g1/800/600" alt="gallery">
+          <img src="https://picsum.photos/seed/g2/800/600" alt="gallery">
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="cta-bg"></div>
+      <div class="container cta-inner">
+        <h2>Your Dream Vacation Starts Here</h2>
+        <p>Tell us where you want to go, and we'll plan the perfect trip for you.</p>
+        <div class="cta-actions"><a class="btn btn-primary" href="#">Plan My Trip</a><a class="btn btn-outline" href="#">WhatsApp Us</a></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <img src="https://via.placeholder.com/120x34?text=Explore" alt="logo">
+        <p>Premium travel experiences crafted with care. Trusted in India and beyond.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul><li><a href="index.html#destinations">Destinations</a></li><li><a href="index.html#packages">Packages</a></li><li><a href="contact.html">Contact</a></li></ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p>Phone: +91-98765-43210</p>
+        <p>WhatsApp: +91-98765-43210</p>
+        <p>Email: hello@exploretravel.com</p>
+      </div>
+      <div class="footer-col">
+        <h4>Follow Us</h4>
+        <div class="socials"><a href="#" aria-label="Instagram">Instagram</a> · <a href="#" aria-label="Facebook">Facebook</a> · <a href="#" aria-label="Twitter">Twitter</a></div>
+      </div>
+    </div>
+    <div class="copyright">© 2026 Explore Travel. All rights reserved.</div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/919876543210" target="_blank" aria-label="WhatsApp">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp"/>
+  </a>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
