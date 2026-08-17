@@ -31,7 +31,7 @@ body{margin:0;font-family:var(--font-family);color:var(--navy);line-height:1.45;
 .site-header.over-hero .nav a{color:#fff}
 
 .hero{position:relative;color:#fff;min-height:64vh;display:flex;align-items:center}
-.hero-bg{position:absolute;inset:0;background-image:linear-gradient(180deg,rgba(4,26,43,0.45),rgba(4,26,43,0.6)),url('https://images.unsplash.com/photo-1631049307038-da0ec84d127d?w=1600&h=900&fit=crop');background-size:cover;background-position:center;filter:contrast(1.02);}
+.hero-bg{position:absolute;inset:0;background-image:linear-gradient(180deg,rgba(4,26,43,0.45),rgba(4,26,43,0.6)),url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1600&h=900&fit=crop');background-size:cover;background-position:center;filter:contrast(1.02);}
 .hero-content{position:relative;padding:4rem 1rem;text-align:center}
 .hero h1{font-size:2.6rem;margin:0 0 .5rem;font-weight:700}
 .lead{opacity:.95;margin-bottom:1.5rem}
